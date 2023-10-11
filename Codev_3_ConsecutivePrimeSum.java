@@ -15,7 +15,7 @@ import java.util.Scanner;
 //        property in a given range.
 
 
-public class Codev_3_PrimeSum {
+public class Codev_3_ConsecutivePrimeSum {
     public static ArrayList<Integer> arr = new ArrayList<>();
 
     public static int noOfPrimeSum(int num) {
