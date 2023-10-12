@@ -24,7 +24,12 @@ public class Codv_5_KthLargest_Factor {
         ArrayList<Long> arr=new ArrayList<>();
         findPrime(arr,num);
         Collections.sort(arr);
+        if(arr.size()==-1 || k>arr.size()) {
+            System.out.println(1);
+        }
+        else{
         System.out.print(arr.get(arr.size()-k));
+        }
 
     }
 }
